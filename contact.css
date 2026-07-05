@@ -1,0 +1,68 @@
+/* Formulaire de Contact */
+body{
+    background: rgb(235, 218, 187);
+}
+.form-contact {
+    background: whitesmoke;
+    padding: 2rem;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 2px 5px rgb(170, 155, 164);
+}
+h2{ 
+  max-width: 540px;
+ 
+  color: var(--gris);
+  font-size: 0.98rem;
+  line-height: 1.6;
+  font-family: 'Georgia', serif;
+  font-size: clamp(2rem, 4vw, 3.2rem);
+  margin: 0 0 14px;
+  letter-spacing: 1px;
+  align-self: center;
+
+}
+.page-title{
+  max-width: 540px;
+ 
+  color: var(--gris);
+  font-size: 0.98rem;
+  line-height: 1.6;
+  font-family: 'Georgia', serif;
+  font-size: clamp(2rem, 4vw, 3.2rem);
+  margin: auto;
+  letter-spacing: 1px;
+  align-self: center;
+  text-align: center;
+}
+
+.form-group {
+    margin-bottom: 1.2rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 0.7rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.btn{ background-color: rgb(112, 102, 102);
+box-shadow: #ddd;
+}
+footer{
+    text-align:  center;
+}
+
+/* responsive */
+@media(max-width: 768px){
+    .container{
+        width: 100px;
+        padding: 10px;
+    }
+}
